@@ -1,0 +1,475 @@
+table, th, td {
+	border-collapse: collapse;
+	text-shadow: 0.5px 0.5px black;
+}
+
+th, td { border: 1px solid black; }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	display: inline-block;
+}
+
+/*th.sortable {
+	cursor: pointer;
+}*/
+
+.textcolor1 { color: aliceblue; }
+.textcolor2 { color: antiquewhite; }
+.textcolor3 { color: aqua; }
+.textcolor4 { color: aquamarine; }
+.textcolor5 { color: azure; }
+.textcolor6 { color: beige; }
+.textcolor7 { color: bisque; }
+.textcolor8 { color: black; }
+.textcolor9 { color: blanchedalmond; }
+.textcolor10 { color: blue; }
+.textcolor11 { color: blueviolet; }
+.textcolor12 { color: brown; }
+.textcolor13 { color: burlywood; }
+.textcolor14 { color: cadetblue; }
+.textcolor15 { color: chartreuse; }
+.textcolor16 { color: chocolate; }
+.textcolor17 { color: coral; }
+.textcolor18 { color: cornflowerblue; }
+.textcolor19 { color: cornsilk; }
+.textcolor20 { color: crimson; }
+.textcolor21 { color: darkblue; }
+.textcolor22 { color: darkcyan; }
+.textcolor23 { color: darkgoldenrod; }
+.textcolor24 { color: darkgray; }
+.textcolor25 { color: darkgreen; }
+.textcolor26 { color: darkkhaki; }
+.textcolor27 { color: darkmagenta; }
+.textcolor28 { color: darkolivegreen; }
+.textcolor29 { color: darkorange; }
+.textcolor30 { color: darkorchid; }
+.textcolor31 { color: darkred; }
+.textcolor32 { color: darksalmon; }
+.textcolor33 { color: darkseagreen; }
+.textcolor34 { color: darkslateblue; }
+.textcolor35 { color: darkslategray; }
+.textcolor36 { color: darkturquoise; }
+.textcolor37 { color: darkviolet; }
+.textcolor38 { color: deeppink; }
+.textcolor39 { color: deepskyblue; }
+.textcolor40 { color: dimgray; }
+.textcolor41 { color: dodgerblue; }
+.textcolor42 { color: firebrick; }
+.textcolor43 { color: floralwhite; }
+.textcolor44 { color: forestgreen; }
+.textcolor45 { color: fuchsia; }
+.textcolor46 { color: gainsboro; }
+.textcolor47 { color: ghostwhite; }
+.textcolor48 { color: gold; }
+.textcolor49 { color: goldenrod; }
+.textcolor50 { color: gray; }
+.textcolor51 { color: green; }
+.textcolor52 { color: greenyellow; }
+.textcolor53 { color: honeydew; }
+.textcolor54 { color: hotpink; }
+.textcolor55 { color: indianred; }
+.textcolor56 { color: indigo; }
+.textcolor57 { color: ivory; }
+.textcolor58 { color: khaki; }
+.textcolor59 { color: lavender; }
+.textcolor60 { color: lavenderblush; }
+.textcolor61 { color: lawngreen; }
+.textcolor62 { color: lemonchiffon; }
+.textcolor63 { color: lightblue; }
+.textcolor64 { color: lightcoral; }
+.textcolor65 { color: lightcyan; }
+.textcolor66 { color: lightgoldenrodyellow; }
+.textcolor67 { color: lightgray; }
+.textcolor68 { color: lightgreen; }
+.textcolor69 { color: lightpink; }
+.textcolor70 { color: lightsalmon; }
+.textcolor71 { color: lightseagreen; }
+.textcolor72 { color: lightskyblue; }
+.textcolor73 { color: lightslategray; }
+.textcolor74 { color: lightsteelblue; }
+.textcolor75 { color: lightyellow; }
+.textcolor76 { color: lime; }
+.textcolor77 { color: limegreen; }
+.textcolor78 { color: linen; }
+.textcolor79 { color: maroon; }
+.textcolor80 { color: mediumaquamarine; }
+.textcolor81 { color: mediumblue; }
+.textcolor82 { color: mediumorchid; }
+.textcolor83 { color: mediumpurple; }
+.textcolor84 { color: mediumseagreen; }
+.textcolor85 { color: mediumslateblue; }
+.textcolor86 { color: mediumspringgreen; }
+.textcolor87 { color: mediumturquoise; }
+.textcolor88 { color: mediumvioletred; }
+.textcolor89 { color: midnightblue; }
+.textcolor90 { color: mintcream; }
+.textcolor91 { color: mistyrose; }
+.textcolor92 { color: moccasin; }
+.textcolor93 { color: navajowhite; }
+.textcolor94 { color: navy; }
+.textcolor95 { color: oldlace; }
+.textcolor96 { color: olive; }
+.textcolor97 { color: olivedrab; }
+.textcolor98 { color: orange; }
+.textcolor99 { color: orangered; }
+.textcolor100 { color: orchid; }
+.textcolor101 { color: palegoldenrod; }
+.textcolor102 { color: palegreen; }
+.textcolor103 { color: paleturquoise; }
+.textcolor104 { color: palevioletred; }
+.textcolor105 { color: papayawhip; }
+.textcolor106 { color: peachpuff; }
+.textcolor107 { color: peru; }
+.textcolor108 { color: pink; }
+.textcolor109 { color: plum; }
+.textcolor110 { color: powderblue; }
+.textcolor111 { color: purple; }
+.textcolor112 { color: rebeccapurple; }
+.textcolor113 { color: red; }
+.textcolor114 { color: rosybrown; }
+.textcolor115 { color: royablue; }
+.textcolor116 { color: saddlebrown; }
+.textcolor117 { color: salmon; }
+.textcolor118 { color: sandybrown; }
+.textcolor119 { color: seagreen; }
+.textcolor120 { color: seashell; }
+.textcolor121 { color: sienna; }
+.textcolor122 { color: silver; }
+.textcolor123 { color: skyblue; }
+.textcolor124 { color: slateblue; }
+.textcolor125 { color: slategray; }
+.textcolor126 { color: snow; }
+.textcolor127 { color: springgreen; }
+.textcolor128 { color: steelblue; }
+.textcolor129 { color: tan; }
+.textcolor130 { color: teal; }
+.textcolor131 { color: thistle; }
+.textcolor132 { color: tomato; }
+.textcolor133 { color: turquoise; }
+.textcolor134 { color: violet; }
+.textcolor135 { color: wheat; }
+.textcolor136 { color: white; }
+.textcolor137 { color: whitesmoke; }
+.textcolor138 { color: yellow; }
+.textcolor139 { color: yellowgreen; }
+
+.bgcolor1 { background-color: aliceblue; }
+.bgcolor2 { background-color: antiquewhite; }
+.bgcolor3 { background-color: aqua; }
+.bgcolor4 { background-color: aquamarine; }
+.bgcolor5 { background-color: azure; }
+.bgcolor6 { background-color: beige; }
+.bgcolor7 { background-color: bisque; }
+.bgcolor8 { background-color: black; }
+.bgcolor9 { background-color: blanchedalmond; }
+.bgcolor10 { background-color: blue; }
+.bgcolor11 { background-color: blueviolet; }
+.bgcolor12 { background-color: brown; }
+.bgcolor13 { background-color: burlywood; }
+.bgcolor14 { background-color: cadetblue; }
+.bgcolor15 { background-color: chartreuse; }
+.bgcolor16 { background-color: chocolate; }
+.bgcolor17 { background-color: coral; }
+.bgcolor18 { background-color: cornflowerblue; }
+.bgcolor19 { background-color: cornsilk; }
+.bgcolor20 { background-color: crimson; }
+.bgcolor21 { background-color: darkblue; }
+.bgcolor22 { background-color: darkcyan; }
+.bgcolor23 { background-color: darkgoldenrod; }
+.bgcolor24 { background-color: darkgray; }
+.bgcolor25 { background-color: darkgreen; }
+.bgcolor26 { background-color: darkkhaki; }
+.bgcolor27 { background-color: darkmagenta; }
+.bgcolor28 { background-color: darkolivegreen; }
+.bgcolor29 { background-color: darkorange; }
+.bgcolor30 { background-color: darkorchid; }
+.bgcolor31 { background-color: darkred; }
+.bgcolor32 { background-color: darksalmon; }
+.bgcolor33 { background-color: darkseagreen; }
+.bgcolor34 { background-color: darkslateblue; }
+.bgcolor35 { background-color: darkslategray; }
+.bgcolor36 { background-color: darkturquoise; }
+.bgcolor37 { background-color: darkviolet; }
+.bgcolor38 { background-color: deeppink; }
+.bgcolor39 { background-color: deepskyblue; }
+.bgcolor40 { background-color: dimgray; }
+.bgcolor41 { background-color: dodgerblue; }
+.bgcolor42 { background-color: firebrick; }
+.bgcolor43 { background-color: floralwhite; }
+.bgcolor44 { background-color: forestgreen; }
+.bgcolor45 { background-color: fuchsia; }
+.bgcolor46 { background-color: gainsboro; }
+.bgcolor47 { background-color: ghostwhite; }
+.bgcolor48 { background-color: gold; }
+.bgcolor49 { background-color: goldenrod; }
+.bgcolor50 { background-color: gray; }
+.bgcolor51 { background-color: green; }
+.bgcolor52 { background-color: greenyellow; }
+.bgcolor53 { background-color: honeydew; }
+.bgcolor54 { background-color: hotpink; }
+.bgcolor55 { background-color: indianred; }
+.bgcolor56 { background-color: indigo; }
+.bgcolor57 { background-color: ivory; }
+.bgcolor58 { background-color: khaki; }
+.bgcolor59 { background-color: lavender; }
+.bgcolor60 { background-color: lavenderblush; }
+.bgcolor61 { background-color: lawngreen; }
+.bgcolor62 { background-color: lemonchiffon; }
+.bgcolor63 { background-color: lightblue; }
+.bgcolor64 { background-color: lightcoral; }
+.bgcolor65 { background-color: lightcyan; }
+.bgcolor66 { background-color: lightgoldenrodyellow; }
+.bgcolor67 { background-color: lightgray; }
+.bgcolor68 { background-color: lightgreen; }
+.bgcolor69 { background-color: lightpink; }
+.bgcolor70 { background-color: lightsalmon; }
+.bgcolor71 { background-color: lightseagreen; }
+.bgcolor72 { background-color: lightskyblue; }
+.bgcolor73 { background-color: lightslategray; }
+.bgcolor74 { background-color: lightsteelblue; }
+.bgcolor75 { background-color: lightyellow; }
+.bgcolor76 { background-color: lime; }
+.bgcolor77 { background-color: limegreen; }
+.bgcolor78 { background-color: linen; }
+.bgcolor79 { background-color: maroon; }
+.bgcolor80 { background-color: mediumaquamarine; }
+.bgcolor81 { background-color: mediumblue; }
+.bgcolor82 { background-color: mediumorchid; }
+.bgcolor83 { background-color: mediumpurple; }
+.bgcolor84 { background-color: mediumseagreen; }
+.bgcolor85 { background-color: mediumslateblue; }
+.bgcolor86 { background-color: mediumspringgreen; }
+.bgcolor87 { background-color: mediumturquoise; }
+.bgcolor88 { background-color: mediumvioletred; }
+.bgcolor89 { background-color: midnightblue; }
+.bgcolor90 { background-color: mintcream; }
+.bgcolor91 { background-color: mistyrose; }
+.bgcolor92 { background-color: moccasin; }
+.bgcolor93 { background-color: navajowhite; }
+.bgcolor94 { background-color: navy; }
+.bgcolor95 { background-color: oldlace; }
+.bgcolor96 { background-color: olive; }
+.bgcolor97 { background-color: olivedrab; }
+.bgcolor98 { background-color: orange; }
+.bgcolor99 { background-color: orangered; }
+.bgcolor100 { background-color: orchid; }
+.bgcolor101 { background-color: palegoldenrod; }
+.bgcolor102 { background-color: palegreen; }
+.bgcolor103 { background-color: paleturquoise; }
+.bgcolor104 { background-color: palevioletred; }
+.bgcolor105 { background-color: papayawhip; }
+.bgcolor106 { background-color: peachpuff; }
+.bgcolor107 { background-color: peru; }
+.bgcolor108 { background-color: pink; }
+.bgcolor109 { background-color: plum; }
+.bgcolor110 { background-color: powderblue; }
+.bgcolor111 { background-color: purple; }
+.bgcolor112 { background-color: rebeccapurple; }
+.bgcolor113 { background-color: red; }
+.bgcolor114 { background-color: rosybrown; }
+.bgcolor115 { background-color: royablue; }
+.bgcolor116 { background-color: saddlebrown; }
+.bgcolor117 { background-color: salmon; }
+.bgcolor118 { background-color: sandybrown; }
+.bgcolor119 { background-color: seagreen; }
+.bgcolor120 { background-color: seashell; }
+.bgcolor121 { background-color: sienna; }
+.bgcolor122 { background-color: silver; }
+.bgcolor123 { background-color: skyblue; }
+.bgcolor124 { background-color: slateblue; }
+.bgcolor125 { background-color: slategray; }
+.bgcolor126 { background-color: snow; }
+.bgcolor127 { background-color: springgreen; }
+.bgcolor128 { background-color: steelblue; }
+.bgcolor129 { background-color: tan; }
+.bgcolor130 { background-color: teal; }
+.bgcolor131 { background-color: thistle; }
+.bgcolor132 { background-color: tomato; }
+.bgcolor133 { background-color: turquoise; }
+.bgcolor134 { background-color: violet; }
+.bgcolor135 { background-color: wheat; }
+.bgcolor136 { background-color: white; }
+.bgcolor137 { background-color: whitesmoke; }
+.bgcolor138 { background-color: yellow; }
+.bgcolor139 { background-color: yellowgreen; }
+
+.italics { font-style: italic; }
+
+.bold { font-weight: bold; }
+
+.textdecline1{ text-decoration-line: none; }
+.textdecline2{ text-decoration-line: overline; }
+.textdecline3{ text-decoration-line: line-through; }
+.textdecline4{ text-decoration-line: underline; }
+.textdecline5{ text-decoration-line: overline line-through; }
+.textdecline6{ text-decoration-line: overline underline; }
+.textdecline7{ text-decoration-line: line-through underline; }
+.textdecline8{ text-decoration-line: overline line-through underline; }
+
+.textdeccolor1 { text-decoration-color: aliceblue; }
+.textdeccolor2 { text-decoration-color: antiquewhite; }
+.textdeccolor3 { text-decoration-color: aqua; }
+.textdeccolor4 { text-decoration-color: aquamarine; }
+.textdeccolor5 { text-decoration-color: azure; }
+.textdeccolor6 { text-decoration-color: beige; }
+.textdeccolor7 { text-decoration-color: bisque; }
+.textdeccolor8 { text-decoration-color: black; }
+.textdeccolor9 { text-decoration-color: blanchedalmond; }
+.textdeccolor10 { text-decoration-color: blue; }
+.textdeccolor11 { text-decoration-color: blueviolet; }
+.textdeccolor12 { text-decoration-color: brown; }
+.textdeccolor13 { text-decoration-color: burlywood; }
+.textdeccolor14 { text-decoration-color: cadetblue; }
+.textdeccolor15 { text-decoration-color: chartreuse; }
+.textdeccolor16 { text-decoration-color: chocolate; }
+.textdeccolor17 { text-decoration-color: coral; }
+.textdeccolor18 { text-decoration-color: cornflowerblue; }
+.textdeccolor19 { text-decoration-color: cornsilk; }
+.textdeccolor20 { text-decoration-color: crimson; }
+.textdeccolor21 { text-decoration-color: darkblue; }
+.textdeccolor22 { text-decoration-color: darkcyan; }
+.textdeccolor23 { text-decoration-color: darkgoldenrod; }
+.textdeccolor24 { text-decoration-color: darkgray; }
+.textdeccolor25 { text-decoration-color: darkgreen; }
+.textdeccolor26 { text-decoration-color: darkkhaki; }
+.textdeccolor27 { text-decoration-color: darkmagenta; }
+.textdeccolor28 { text-decoration-color: darkolivegreen; }
+.textdeccolor29 { text-decoration-color: darkorange; }
+.textdeccolor30 { text-decoration-color: darkorchid; }
+.textdeccolor31 { text-decoration-color: darkred; }
+.textdeccolor32 { text-decoration-color: darksalmon; }
+.textdeccolor33 { text-decoration-color: darkseagreen; }
+.textdeccolor34 { text-decoration-color: darkslateblue; }
+.textdeccolor35 { text-decoration-color: darkslategray; }
+.textdeccolor36 { text-decoration-color: darkturquoise; }
+.textdeccolor37 { text-decoration-color: darkviolet; }
+.textdeccolor38 { text-decoration-color: deeppink; }
+.textdeccolor39 { text-decoration-color: deepskyblue; }
+.textdeccolor40 { text-decoration-color: dimgray; }
+.textdeccolor41 { text-decoration-color: dodgerblue; }
+.textdeccolor42 { text-decoration-color: firebrick; }
+.textdeccolor43 { text-decoration-color: floralwhite; }
+.textdeccolor44 { text-decoration-color: forestgreen; }
+.textdeccolor45 { text-decoration-color: fuchsia; }
+.textdeccolor46 { text-decoration-color: gainsboro; }
+.textdeccolor47 { text-decoration-color: ghostwhite; }
+.textdeccolor48 { text-decoration-color: gold; }
+.textdeccolor49 { text-decoration-color: goldenrod; }
+.textdeccolor50 { text-decoration-color: gray; }
+.textdeccolor51 { text-decoration-color: green; }
+.textdeccolor52 { text-decoration-color: greenyellow; }
+.textdeccolor53 { text-decoration-color: honeydew; }
+.textdeccolor54 { text-decoration-color: hotpink; }
+.textdeccolor55 { text-decoration-color: indianred; }
+.textdeccolor56 { text-decoration-color: indigo; }
+.textdeccolor57 { text-decoration-color: ivory; }
+.textdeccolor58 { text-decoration-color: khaki; }
+.textdeccolor59 { text-decoration-color: lavender; }
+.textdeccolor60 { text-decoration-color: lavenderblush; }
+.textdeccolor61 { text-decoration-color: lawngreen; }
+.textdeccolor62 { text-decoration-color: lemonchiffon; }
+.textdeccolor63 { text-decoration-color: lightblue; }
+.textdeccolor64 { text-decoration-color: lightcoral; }
+.textdeccolor65 { text-decoration-color: lightcyan; }
+.textdeccolor66 { text-decoration-color: lightgoldenrodyellow; }
+.textdeccolor67 { text-decoration-color: lightgray; }
+.textdeccolor68 { text-decoration-color: lightgreen; }
+.textdeccolor69 { text-decoration-color: lightpink; }
+.textdeccolor70 { text-decoration-color: lightsalmon; }
+.textdeccolor71 { text-decoration-color: lightseagreen; }
+.textdeccolor72 { text-decoration-color: lightskyblue; }
+.textdeccolor73 { text-decoration-color: lightslategray; }
+.textdeccolor74 { text-decoration-color: lightsteelblue; }
+.textdeccolor75 { text-decoration-color: lightyellow; }
+.textdeccolor76 { text-decoration-color: lime; }
+.textdeccolor77 { text-decoration-color: limegreen; }
+.textdeccolor78 { text-decoration-color: linen; }
+.textdeccolor79 { text-decoration-color: maroon; }
+.textdeccolor80 { text-decoration-color: mediumaquamarine; }
+.textdeccolor81 { text-decoration-color: mediumblue; }
+.textdeccolor82 { text-decoration-color: mediumorchid; }
+.textdeccolor83 { text-decoration-color: mediumpurple; }
+.textdeccolor84 { text-decoration-color: mediumseagreen; }
+.textdeccolor85 { text-decoration-color: mediumslateblue; }
+.textdeccolor86 { text-decoration-color: mediumspringgreen; }
+.textdeccolor87 { text-decoration-color: mediumturquoise; }
+.textdeccolor88 { text-decoration-color: mediumvioletred; }
+.textdeccolor89 { text-decoration-color: midnightblue; }
+.textdeccolor90 { text-decoration-color: mintcream; }
+.textdeccolor91 { text-decoration-color: mistyrose; }
+.textdeccolor92 { text-decoration-color: moccasin; }
+.textdeccolor93 { text-decoration-color: navajowhite; }
+.textdeccolor94 { text-decoration-color: navy; }
+.textdeccolor95 { text-decoration-color: oldlace; }
+.textdeccolor96 { text-decoration-color: olive; }
+.textdeccolor97 { text-decoration-color: olivedrab; }
+.textdeccolor98 { text-decoration-color: orange; }
+.textdeccolor99 { text-decoration-color: orangered; }
+.textdeccolor100 { text-decoration-color: orchid; }
+.textdeccolor101 { text-decoration-color: palegoldenrod; }
+.textdeccolor102 { text-decoration-color: palegreen; }
+.textdeccolor103 { text-decoration-color: paleturquoise; }
+.textdeccolor104 { text-decoration-color: palevioletred; }
+.textdeccolor105 { text-decoration-color: papayawhip; }
+.textdeccolor106 { text-decoration-color: peachpuff; }
+.textdeccolor107 { text-decoration-color: peru; }
+.textdeccolor108 { text-decoration-color: pink; }
+.textdeccolor109 { text-decoration-color: plum; }
+.textdeccolor110 { text-decoration-color: powderblue; }
+.textdeccolor111 { text-decoration-color: purple; }
+.textdeccolor112 { text-decoration-color: rebeccapurple; }
+.textdeccolor113 { text-decoration-color: red; }
+.textdeccolor114 { text-decoration-color: rosybrown; }
+.textdeccolor115 { text-decoration-color: royablue; }
+.textdeccolor116 { text-decoration-color: saddlebrown; }
+.textdeccolor117 { text-decoration-color: salmon; }
+.textdeccolor118 { text-decoration-color: sandybrown; }
+.textdeccolor119 { text-decoration-color: seagreen; }
+.textdeccolor120 { text-decoration-color: seashell; }
+.textdeccolor121 { text-decoration-color: sienna; }
+.textdeccolor122 { text-decoration-color: silver; }
+.textdeccolor123 { text-decoration-color: skyblue; }
+.textdeccolor124 { text-decoration-color: slateblue; }
+.textdeccolor125 { text-decoration-color: slategray; }
+.textdeccolor126 { text-decoration-color: snow; }
+.textdeccolor127 { text-decoration-color: springgreen; }
+.textdeccolor128 { text-decoration-color: steelblue; }
+.textdeccolor129 { text-decoration-color: tan; }
+.textdeccolor130 { text-decoration-color: teal; }
+.textdeccolor131 { text-decoration-color: thistle; }
+.textdeccolor132 { text-decoration-color: tomato; }
+.textdeccolor133 { text-decoration-color: turquoise; }
+.textdeccolor134 { text-decoration-color: violet; }
+.textdeccolor135 { text-decoration-color: wheat; }
+.textdeccolor136 { text-decoration-color: white; }
+.textdeccolor137 { text-decoration-color: whitesmoke; }
+.textdeccolor138 { text-decoration-color: yellow; }
+.textdeccolor139 { text-decoration-color: yellowgreen; }
+
+.textdecstyle1 { text-decoration-style: solid; }
+.textdecstyle2 { text-decoration-style: double; }
+.textdecstyle3 { text-decoration-style: dotted; }
+.textdecstyle4 { text-decoration-style: dashed; }
+.textdecstyle5 { text-decoration-style: wavy; }
+
+.capitals1{ text-transform: none; }
+.capitals2{ text-transform: uppercase; }
+.capitals3{ text-transform: lowercase; }
+.capitals4{ font-variant: small-caps; }
+
+.font1{ font-family: Arial, Helvetica, sans-serif; }
+.font2{ font-family: "Arial Black", Gadget, sans-serif; }
+.font3{ font-family: "Comic Sans MS", cursive, sans-serif; }
+.font4{ font-family: "Courier New", Courier, monospace; }
+.font5{ font-family: Georgia, serif; }
+.font6{ font-family: Impact, Charcoal, sans-serif; }
+.font7{ font-family: "Lucida Console", Monaco, monospace; }
+.font8{ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+.font9{ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.font10{ font-family: Tahoma, Geneva, sans-serif; }
+.font11{ font-family: "Times New Roman", Times, serif; }
