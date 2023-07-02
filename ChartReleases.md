@@ -36,6 +36,12 @@ https://www.billboard.com/charts/hot-canada-digital-song-sales/2000-11-11/
 ## Canadian Hot 100 (March 31, 2007-present)
 https://www.billboard.com/charts/canadian-hot-100/2007-03-31/
 
+# Italy
+## Italian Hit Parade Singles Chart (December 27, 1958-February 1, 1997)
+https://www.hitparadeitalia.it/hp_weeks/index.html
+## FIMI (Febraury 6, 1997-present)
+https://www.fimi.it/top-of-the-music/classifiche.kl#/charts/3/1997/6
+
 # New Zealand
 ## Lever Hit Parade (July 21, 1960-February 24, 1966)
 https://web.archive.org/web/20210208152118/http://www.flavourofnz.co.nz/index.php?qpageID=Lever%20hit%20parades&qyear=1960&qmonth=Jul&qweek=21-Jul-1960#n_view_location
