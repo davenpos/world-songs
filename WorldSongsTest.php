@@ -12,9 +12,11 @@
 			<th>Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
 			<th>Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
 			<th>🇦🇺</th>
+			<th>🇦🇹</th>
 			<th>🇨🇦</th>
 			<th>🇫🇷</th>
 			<th>🇩🇪</th>
+			<th>🇮🇹</th>
 			<th>🇯🇵</th>
 			<th>🇳🇿</th>
 			<th>🇬🇧</th>
