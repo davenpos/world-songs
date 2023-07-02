@@ -24,6 +24,10 @@ https://www.billboard.com/charts/hot-100/1958-08-04
 
 https://www.billboard.com/charts/bubbling-under-hot-100-singles/1992-12-05/
 
+# Netherlands
+## Dutch Single Top 100 (March 10, 1956-present)
+https://dutchcharts.nl/weekchart.asp?cat=s&date=19560310&year=1956
+
 # Canada
 ## CHUM Chart (May 27, 1957-June 22, 1964)
 https://en.wikipedia.org/wiki/List_of_number-one_singles_of_1957_(Canada)
@@ -36,11 +40,25 @@ https://www.billboard.com/charts/hot-canada-digital-song-sales/2000-11-11/
 ## Canadian Hot 100 (March 31, 2007-present)
 https://www.billboard.com/charts/canadian-hot-100/2007-03-31/
 
+# Norway
+## VG-lista Topp 40 Singles (June 13/19, 1958-present)
+https://www.vglista.no/topplister/topp-20-single-1958-42/
+
 # Italy
 ## Italian Hit Parade Singles Chart (December 27, 1958-February 1, 1997)
 https://www.hitparadeitalia.it/hp_weeks/index.html
 ## FIMI (Febraury 6, 1997-present)
 https://www.fimi.it/top-of-the-music/classifiche.kl#/charts/3/1997/6
+
+# Spain
+## Productores de Música de España Top 100 Songs (January 5, 1959-present)
+https://en.wikipedia.org/wiki/List_of_Spanish_number-one_hits_of_1959
+
+(#1s only, information before August 17, 2009 not yet obtained)
+
+https://www.elportaldemusica.es/lists/top-100-canciones/2009/34
+
+(2009 charts missing or incomplete)
 
 # New Zealand
 ## Lever Hit Parade (July 21, 1960-February 24, 1966)
