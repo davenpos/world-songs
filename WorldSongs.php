@@ -9,10 +9,6 @@
 	<body>
 		<h1>World Songs</h1>
 		<table id="tbl">
-			<colgroup>
-				<col span="2">
-				<col span="12">
-			</colgroup>
 			<tr>
 				<th rowspan="2">Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
 				<th rowspan="2">Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->

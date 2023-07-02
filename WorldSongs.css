@@ -8,6 +8,11 @@ table {
 	width: 100%;
 }
 
+/*table {
+	display: grid;
+	grid-template-columns: repeat(2, auto) repeat(12, 1fr);
+}*/
+
 th, td { border: 1px solid black; }
 
 th { white-space: nowrap; }
@@ -16,6 +21,10 @@ th:nth-last-child(-n+12) {
 	width: 1%;
 	min-width: 100%;
 }
+
+/*col#notpeaks {
+	width: auto;
+}*/
 
 ul {
 	list-style-type: none;
