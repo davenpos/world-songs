@@ -3,7 +3,19 @@ table, th, td {
 	text-shadow: 0.5px 0.5px black;
 }
 
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
 th, td { border: 1px solid black; }
+
+th { white-space: nowrap; }
+
+th:nth-last-child(-n+12) {
+	width: 1%;
+	min-width: 100%;
+}
 
 ul {
 	list-style-type: none;

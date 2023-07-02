@@ -9,20 +9,29 @@
 	<body>
 		<h1>World Songs</h1>
 		<table id="tbl">
-			<th>Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
-			<th>Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
-			<th>🇦🇺</th>
-			<th>🇦🇹</th>
-			<th>🇨🇦</th>
-			<th>🇫🇷</th>
-			<th>🇩🇪</th>
-			<th>🇮🇹</th>
-			<th>🇯🇵</th>
-			<th>🇳🇱</th>
-			<th>🇳🇴</th>
-			<th>🇳🇿</th>
-			<th>🇬🇧</th>
-			<th>🇺🇸</th>
+			<colgroup>
+				<col span="2">
+				<col span="12">
+			</colgroup>
+			<tr>
+				<th rowspan="2">Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
+				<th rowspan="2">Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
+				<th colspan="12">Peak:</th>
+			</tr>
+			<tr>
+				<th>🇦🇺</th>
+				<th>🇦🇹</th>
+				<th>🇨🇦</th>
+				<th>🇫🇷</th>
+				<th>🇩🇪</th>
+				<th>🇮🇹</th>
+				<th>🇯🇵</th>
+				<th>🇳🇱</th>
+				<th>🇳🇴</th>
+				<th>🇳🇿</th>
+				<th>🇬🇧</th>
+				<th>🇺🇸</th>
+			</tr>
 			<?php
 			$file = 'WorldSongs.csv';
 			
@@ -95,18 +104,18 @@
 					$capitals = (int)($rowIndex / $textdecEnd) % 4 + 1;
 				}
 				
-				$cssClasses = 'textcolor' . $textcolor . ' bgcolor' . $bgcolor . (($italics) ? ' italics' : '') . (($bold) ? ' bold' : '') . ' textdecline' . $textdecline . (($textdecline > 1) ? ' textdeccolor' . $textdeccolor . ' textdecstyle' . $textdecstyle : '') . ' capitals' . $capitals. ' font' . $font;
-				echo '<tr>';
-					foreach ($row as $cellIndex => $cell):
+				$cssClasses = 'textcolor' . $textcolor . ' bgcolor' . $bgcolor . (($italics) ? ' italics' : '') . (($bold) ? ' bold' : '') . ' textdecline' . $textdecline . (($textdecline > 1) ? ' textdeccolor' . $textdeccolor . ' textdecstyle' . $textdecstyle : '') . ' capitals' . $capitals. ' font' . $font; ?>
+				<tr>
+					<?php foreach ($row as $cellIndex => $cell):
 						echo (($cellIndex < 2) ? '<td class="' . $cssClasses . '">' : '<td>') . htmlspecialchars($cell) . '</td>';
-					endforeach;
-				echo '</tr>';
-			endforeach; ?>
+					endforeach; ?>
+				</tr>
+			<?php endforeach; ?>
 		</table>
 		<!--<script src="sortTable.js"></script>-->
 		<!--
 		15,568,264,656 different combinations
-		https://www.officialcharts.com/charts/singles-chart/19530213/7501
+		https://www.officialcharts.com/charts/singles-chart/19540108/7501
 		-->
 	</body>
 </html>
