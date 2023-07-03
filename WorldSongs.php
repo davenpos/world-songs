@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<h1>World Songs</h1>
-		<table id="tbl">
+		<table>
 			<tr>
 				<th rowspan="2">Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
 				<th rowspan="2">Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
@@ -112,6 +112,7 @@
 		<!--
 		15,568,264,656 different combinations
 		https://www.officialcharts.com/charts/singles-chart/19540108/7501
+		http://www.charts-surfer.de/musikcharts.php
 		-->
 	</body>
 </html>
