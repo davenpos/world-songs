@@ -9,9 +9,13 @@
 	<body>
 		<h1>World Songs</h1>
 		<table>
+			<colgroup>
+				<col span="2">
+				<col id="peaks" span="12">
+			</colgroup>
 			<tr>
-				<th rowspan="2">Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
-				<th rowspan="2">Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
+				<th rowspan="2">Song:</th>
+				<th rowspan="2">Artist:</th>
 				<th colspan="12">Peak:</th>
 			</tr>
 			<tr>
@@ -111,7 +115,7 @@
 		<!--<script src="sortTable.js"></script>-->
 		<!--
 		15,568,264,656 different combinations
-		https://www.officialcharts.com/charts/singles-chart/19540108/7501
+		https://www.officialcharts.com/charts/singles-chart/19540219/7501
 		http://www.charts-surfer.de/musikcharts.php
 		-->
 	</body>
