@@ -19,9 +19,7 @@ jobs:
           done
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Convert PHP files to HTML"
-          commit_options: '--author="GitHub Actions" --no-verify'
-          repository: ${{ github.repository }}
-          branch: ${{ github.ref }}
+        run: |
+          git switch -c "gh-pages" &&
+          git commit -m "Created static HTML files from PHP files"
+          git push
