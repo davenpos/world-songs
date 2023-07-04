@@ -19,7 +19,8 @@ jobs:
           done
 
       - name: Commit and push changes
-        run: |
-          git switch -c "gh-pages" &&
-          git commit -m "Created static HTML files from PHP files"
-          git push
+        uses: devops-infra/action-commit-push@v9
+        with:
+          github_token : "${{secrets.GITHUB_TOKEN}}"
+          commit_message: "Created static HTML files from PHP files"
+          target_branch: "gh-pages"
