@@ -17,7 +17,7 @@ jobs:
       - name: Execute script on repository files
         run: |
           for file in *.php; do
-            php "$file" | cat > "${2}${file%.php}${1}"
+            php "$file" | cat > "${file%.php}.html"
           done
 
       - name: Commit and push changes
