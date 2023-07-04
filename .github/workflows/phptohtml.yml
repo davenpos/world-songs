@@ -17,3 +17,11 @@ jobs:
           for file in *.php; do
             php "$file" | cat > "${2}${file%.php}${1}"
           done
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Convert PHP files to HTML"
+          commit_options: '--author="GitHub Actions" --no-verify'
+          repository: ${{ github.repository }}
+          branch: ${{ github.ref }}
