@@ -1,0 +1,19 @@
+name: Execute Script
+on:
+  push:
+    branches:
+      - main  # Change this if your main branch has a different name
+
+jobs:
+  execute-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Execute script on repository files
+        run: |
+          for file in *.php; do
+            php "$file" | cat > "${2}${file%.php}${1}"
+          done
