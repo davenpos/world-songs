@@ -8,17 +8,30 @@
 	</head>
 	<body>
 		<h1>World Songs</h1>
-		<table id="tbl">
-			<th>Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
-			<th>Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
-			<th>🇦🇺</th>
-			<th>🇨🇦</th>
-			<th>🇫🇷</th>
-			<th>🇩🇪</th>
-			<th>🇯🇵</th>
-			<th>🇳🇿</th>
-			<th>🇬🇧</th>
-			<th>🇺🇸</th>
+		<table>
+			<colgroup>
+				<col span="2">
+				<col id="peaks" span="12">
+			</colgroup>
+			<tr>
+				<th rowspan="2">Song:</th>
+				<th rowspan="2">Artist:</th>
+				<th colspan="12">Peak:</th>
+			</tr>
+			<tr>
+				<th>🇦🇺</th>
+				<th>🇦🇹</th>
+				<th>🇨🇦</th>
+				<th>🇫🇷</th>
+				<th>🇩🇪</th>
+				<th>🇮🇹</th>
+				<th>🇯🇵</th>
+				<th>🇳🇱</th>
+				<th>🇳🇴</th>
+				<th>🇳🇿</th>
+				<th>🇬🇧</th>
+				<th>🇺🇸</th>
+			</tr>
 			<?php for ($i = 1; $i <= 50; $i++):
 				$textcolor = rand(1, 139);
 				$bgcolor = rand(1, 139);
@@ -51,6 +64,10 @@
 				<tr>
 					<?php echo '<td class="' . $cssClasses . '">Song</td>';
 					echo '<td class="' . $cssClasses . '">Artist</td>'; ?>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
