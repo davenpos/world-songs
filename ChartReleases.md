@@ -92,6 +92,10 @@ https://lescharts.com/weekchart.asp?cat=s&year=1984&date=19841103
 ## Japan Hot 100 (March 3, 2008-present)
 http://www.billboard-japan.com/charts/detail?a=hot100&year=2008&month=03&day=3
 
+# South Korea
+## Circle Digital Chart (December 27, 2009-present)
+https://circlechart.kr/page_chart/onoff.circle?serviceGbn=ALL&termGbn=week&hitYear=2010&targetTime=01&nationGbn=T&year_time=
+
 # Argentina
 ## Argentina Hot 100 (October 5, 2018-present)
 https://billboard.com.ar/chart/2018-10-05/
