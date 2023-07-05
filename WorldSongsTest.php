@@ -8,21 +8,32 @@
 	</head>
 	<body>
 		<h1>World Songs</h1>
-		<table id="tbl">
-			<th>Song:</th><!-- class="sortable" onclick="sortTable(0)"-->
-			<th>Artist:</th><!-- class="sortable" onclick="sortTable(1)"-->
-			<th>🇦🇺</th>
-			<th>🇦🇹</th>
-			<th>🇨🇦</th>
-			<th>🇫🇷</th>
-			<th>🇩🇪</th>
-			<th>🇮🇹</th>
-			<th>🇯🇵</th>
-			<th>🇳🇱</th>
-			<th>🇳🇴</th>
-			<th>🇳🇿</th>
-			<th>🇬🇧</th>
-			<th>🇺🇸</th>
+		<table>
+			<colgroup>
+				<col span="2">
+				<col id="peaks" span="14">
+			</colgroup>
+			<tr>
+				<th rowspan="2">Song:</th>
+				<th rowspan="2">Artist:</th>
+				<th colspan="14">Peak:</th>
+			</tr>
+			<tr>
+				<th>🇦🇷</th>
+				<th>🇦🇺</th>
+				<th>🇦🇹</th>
+				<th>🇨🇦</th>
+				<th>🇫🇷</th>
+				<th>🇩🇪</th>
+				<th>🇮🇹</th>
+				<th>🇯🇵</th>
+				<th>🇰🇷</th>
+				<th>🇳🇱</th>
+				<th>🇳🇴</th>
+				<th>🇳🇿</th>
+				<th>🇬🇧</th>
+				<th>🇺🇸</th>
+			</tr>
 			<?php
 			$file = 'Test.csv';
 			

@@ -11,14 +11,15 @@
 		<table>
 			<colgroup>
 				<col span="2">
-				<col id="peaks" span="12">
+				<col id="peaks" span="14">
 			</colgroup>
 			<tr>
 				<th rowspan="2">Song:</th>
 				<th rowspan="2">Artist:</th>
-				<th colspan="12">Peak:</th>
+				<th colspan="14">Peak:</th>
 			</tr>
 			<tr>
+				<th>🇦🇷</th>
 				<th>🇦🇺</th>
 				<th>🇦🇹</th>
 				<th>🇨🇦</th>
@@ -26,6 +27,7 @@
 				<th>🇩🇪</th>
 				<th>🇮🇹</th>
 				<th>🇯🇵</th>
+				<th>🇰🇷</th>
 				<th>🇳🇱</th>
 				<th>🇳🇴</th>
 				<th>🇳🇿</th>
@@ -64,6 +66,8 @@
 				<tr>
 					<?php echo '<td class="' . $cssClasses . '">Song</td>';
 					echo '<td class="' . $cssClasses . '">Artist</td>'; ?>
+					<td>-</td>
+					<td>-</td>
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
