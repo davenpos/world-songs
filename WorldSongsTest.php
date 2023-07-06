@@ -43,7 +43,7 @@
 
 			$data = array_map('str_getcsv', file($file));
 			
-			require __DIR__ . '/GetRowStyling.php';
+			require __DIR__ . '/Non-displaying PHP files/GetRowStyling.php';
 			
 			foreach ($data as $row):
 				$cssClasses = getRowStyling($row[0] - 1); ?>
