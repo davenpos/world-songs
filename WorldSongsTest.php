@@ -55,10 +55,5 @@
 				</tr>
 			<?php endforeach; ?>
 		</table>
-		<!--<script src="sortTable.js"></script>-->
-		<!--
-		15,568,264,656 different combinations
-		https://www.officialcharts.com/charts/singles-chart/19521114/7501/
-		-->
 	</body>
 </html>
