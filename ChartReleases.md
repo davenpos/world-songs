@@ -15,7 +15,7 @@ https://en.wikipedia.org/wiki/List_of_number-one_hits_of_1954_(Germany)
 https://www.offiziellecharts.de/charts/single/for-date-221115600000
 
 # USA
-## Billboard Top 100 (November 14, 1955-July 28, 1958)
+## Billboard Top 100 (November 12, 1955-July 28, 1958)
 https://books.google.ca/books?id=iAoEAAAAMBAJ&redir_esc=y
 ## Billboard Hot 100 (August 4, 1958-present) + Bubbling Under Hot 100 (June 1, 1959-August 24, 1985, December 5, 1992-present)
 https://books.google.ca/books?id=iAoEAAAAMBAJ&redir_esc=y
