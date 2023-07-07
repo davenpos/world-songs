@@ -14,6 +14,16 @@ https://en.wikipedia.org/wiki/List_of_number-one_hits_of_1954_(Germany)
 ## Offizielle Deutsche Charts Top 100 Singles-Charts (January 3, 1977-present)
 https://www.offiziellecharts.de/charts/single/for-date-221115600000
 
+# Belgium
+## Ultratop Singles 50 (December 1, 1954-present for Flanders, October 1, 1956-present for Wallonia) + Ultratip Bubbling Under (September 7, 1996-May 29, 2021 for Flanders, <=March 21, 1998-January 30, 2021 for Wallonia)
+https://www.ultratop.be/nl/ultratop50/1954/19541201
+
+https://www.ultratop.be/fr/ultratop50/1956/19561001
+
+https://www.ultratop.be/nl/ultratip/1996/19960907
+
+https://www.ultratop.be/fr/ultratip/1998/19980321
+
 # USA
 ## Billboard Top 100 (November 12, 1955-July 28, 1958)
 https://books.google.ca/books?id=iAoEAAAAMBAJ&redir_esc=y
