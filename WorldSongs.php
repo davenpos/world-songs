@@ -11,28 +11,33 @@
 		<table>
 			<colgroup>
 				<col span="2">
-				<col id="peaks" span="14">
+				<col id="peaks" span="16">
 			</colgroup>
 			<tr>
-				<th rowspan="2">Song:</th>
-				<th rowspan="2">Artist:</th>
-				<th colspan="14">Peak:</th>
+				<th rowspan="3">Song:</th>
+				<th rowspan="3">Artist:</th>
+				<th colspan="16">Peak:</th>
 			</tr>
 			<tr>
-				<th>🇦🇷</th>
-				<th>🇦🇺</th>
-				<th>🇦🇹</th>
-				<th>🇨🇦</th>
-				<th>🇫🇷</th>
-				<th>🇩🇪</th>
-				<th>🇮🇹</th>
-				<th>🇯🇵</th>
-				<th>🇰🇷</th>
-				<th>🇳🇱</th>
-				<th>🇳🇴</th>
-				<th>🇳🇿</th>
-				<th>🇬🇧</th>
-				<th>🇺🇸</th>
+				<th rowspan="2">🇦🇷</th>
+				<th rowspan="2">🇦🇺</th>
+				<th rowspan="2">🇦🇹</th>
+				<th colspan="2">🇧🇪<br /></th>
+				<th rowspan="2">🇨🇦</th>
+				<th rowspan="2">🇫🇷</th>
+				<th rowspan="2">🇩🇪</th>
+				<th rowspan="2">🇮🇹</th>
+				<th rowspan="2">🇯🇵</th>
+				<th rowspan="2">🇰🇷</th>
+				<th rowspan="2">🇳🇱</th>
+				<th rowspan="2">🇳🇴</th>
+				<th rowspan="2">🇳🇿</th>
+				<th rowspan="2">🇬🇧</th>
+				<th rowspan="2">🇺🇸</th>
+			</tr>
+			<tr id="belgiumcharts">
+				<th>VLG</th>
+				<th>WAL</th>
 			</tr>
 			<?php
 			$file = 'WorldSongs.csv';

@@ -21,6 +21,8 @@ th, td { border: 1px solid black; }
 th, col#peaks { background-color: white; }
 col#peaks { width: 4.5ch; }
 
+tr#belgiumcharts th { font-size: smaller; }
+
 .textcolor1 { color: aliceblue; }
 .textcolor2 { color: antiquewhite; }
 .textcolor3 { color: aqua; }
