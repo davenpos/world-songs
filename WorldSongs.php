@@ -22,7 +22,7 @@
 				<th rowspan="2">🇦🇷</th>
 				<th rowspan="2">🇦🇺</th>
 				<th rowspan="2">🇦🇹</th>
-				<th colspan="2">🇧🇪<br /></th>
+				<th colspan="2">🇧🇪</th>
 				<th rowspan="2">🇨🇦</th>
 				<th rowspan="2">🇫🇷</th>
 				<th rowspan="2">🇩🇪</th>
