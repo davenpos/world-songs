@@ -114,5 +114,9 @@ https://circlechart.kr/page_chart/onoff.circle?serviceGbn=ALL&termGbn=week&hitYe
 ## Argentina Hot 100 (October 5, 2018-present)
 https://billboard.com.ar/chart/2018-10-05/
 
+# Mexico
+## Mexico Songs (February 19, 2022-present)
+https://www.billboard.com/charts/mexico-songs-hotw/2022-02-19/
+
 # Potentially other countries
 https://en.wikipedia.org/wiki/List_of_record_charts
