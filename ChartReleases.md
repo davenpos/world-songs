@@ -95,8 +95,9 @@ https://www.australianchartbooks.com.au/1970-1992.html
 https://australian-charts.com/weekchart.asp?cat=s&year=1988&date=19880626
 
 # Sweden
-## Sverigetopplistan (November 14, 1975-present)
+## Sverigetopplistan (November 14, 1975-present) + Veckolista Heatseeker (January 12, 2018-present)
 https://swedishcharts.com/weekchart.asp?cat=s&year=1975&date=19751114
+https://www.sverigetopplistan.se/chart/215?dspy=2015&dspp=2
 
 # France
 ## SNEP (November 3, 1984-present)
