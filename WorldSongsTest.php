@@ -11,12 +11,12 @@
 		<table>
 			<colgroup>
 				<col span="2">
-				<col id="peaks" span="16">
+				<col id="peaks" span="18">
 			</colgroup>
 			<tr>
 				<th rowspan="3">Song:</th>
 				<th rowspan="3">Artist:</th>
-				<th colspan="16">Peak:</th>
+				<th colspan="18">Peak:</th>
 			</tr>
 			<tr>
 				<th rowspan="2">🇦🇷</th>
@@ -28,10 +28,12 @@
 				<th rowspan="2">🇩🇪</th>
 				<th rowspan="2">🇮🇹</th>
 				<th rowspan="2">🇯🇵</th>
+				<th rowspan="2">🇲🇽</th>
 				<th rowspan="2">🇰🇷</th>
 				<th rowspan="2">🇳🇱</th>
 				<th rowspan="2">🇳🇴</th>
 				<th rowspan="2">🇳🇿</th>
+				<th rowspan="2">🇸🇪</th>
 				<th rowspan="2">🇬🇧</th>
 				<th rowspan="2">🇺🇸</th>
 			</tr>
