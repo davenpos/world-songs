@@ -94,6 +94,10 @@ https://www.australianchartbooks.com.au/1970-1992.html
 ## ARIA Charts (June 26, 1988-present)
 https://australian-charts.com/weekchart.asp?cat=s&year=1988&date=19880626
 
+# Sweden
+## Sverigetopplistan (November 14, 1975-present)
+https://swedishcharts.com/weekchart.asp?cat=s&year=1975&date=19751114
+
 # France
 ## SNEP (November 3, 1984-present)
 https://lescharts.com/weekchart.asp?cat=s&year=1984&date=19841103
