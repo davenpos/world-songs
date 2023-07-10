@@ -4,59 +4,59 @@ Autumn Leaves                      Roger Williams                               
 Moments to Remember                The Four Lads                                                   #3
 The Yellow Rose of Texas           Mitch Miller and His Orchestra and Chorus                       #4
 Shifting, Whispering Sands         Billy Vaughn                                                    #5
-I Hear You Knockin'                Gale Storm                                                      #5
+I Hear You Knockin'                Gale Storm                                                      #2
 Shifting, Whispering Sands         Rusty Draper                                                    #7
-At My Front Door                   Pat Boone                                                       #8
+At My Front Door                   Pat Boone                                                       #7
 Only You                           The Platters                                                    #5
-He                                 Al Hibbler                                                      #9
+He                                 Al Hibbler                                                      #8
 My Bonnie Lassie                   The Ames Brothers                                               #11
 Tina Marie                         Perry Como                                                      #12
 Black Denim Trousers               The Cheers                                                      #13
 Suddenly There's a Valley          Gogi Grant                                                      #14
 Seventeen                          The Fontane Sisters                                             #15
-Love and Marriage                  Frank Sinatra                                                   #13
+Love and Marriage                  Frank Sinatra                                                   #5
 The Yellow Rose of Texas           Johnny Desmond                                                  #16
-Only You                           The Hilltoppers                                                 #14
+Only You                           The Hilltoppers                                                 #9
 The Longest Walk                   Jaye P. Morgan                                                  #19
-Suddenly There's a Valley          Jo Stafford                                                     #18
+Suddenly There's a Valley          Jo Stafford                                                     #16
 Ain't That a Shame                 Pat Boone                                                       #21
-You Are My Love                    Joni James                                                      #16
+You Are My Love                    Joni James                                                      #15
 Someone You Love                   Nat "King" Cole                                                 #21
 Wake the Town and Tell the People  Les Baxter                                                      #24
 Young Abe Lincoln                  Don Cornell                                                     #25
-Forgive My Heart                   Nat "King" Cole                                                 #34
-Sixteen Tons                       Tennessee Ernie Ford                                            #3
+Forgive My Heart                   Nat "King" Cole                                                 #21
+Sixteen Tons                       Tennessee Ernie Ford                                            #1
 Seventeen                          Boyd Bennett                                                    #28
-It's Almost Tomorrow               The Dream Weavers                                               #23
+It's Almost Tomorrow               The Dream Weavers                                               #11
 Love is a Many-Splendored Thing    Don Cornell                                                     #26
 Suddenly There's a Valley          Julius LaRosa                                                   #29
 The Bible Tells Me So              Don Cornell                                                     #31
 Wake the Town and Tell the People  Mindy Carson                                                    #33
-Croce di Oro (Cross of Gold)       Patti Page                                                      #22
-No Arms Can Ever Hold You          Georgie Shaw                                                    #35
+Croce di Oro (Cross of Gold)       Patti Page                                                      #16
+No Arms Can Ever Hold You          Georgie Shaw                                                    #23
 Dogfaced Soldier                   Russ Morgan and His Orchestra                                   #30
-Pepper-Hot Baby                    Jaye P. Morgan                                                  #24
+Pepper-Hot Baby                    Jaye P. Morgan                                                  #21
 Black Denim Trousers               Vaughn Monroe                                                   #38
 My Boy Flat Top                    Boyd Bennett                                                    #39
 Amukiriki                          Les Paul & Mary Ford                                            #38
 At My Front Door                   The El Dorados                                                  #35
 Maybellene                         Chuck Berry                                                     #42
 Song of the Dreamer                Eddie Fisher                                                    #43
-Autumn Leaves                      Steve Allen                                                     #44
+Autumn Leaves                      Steve Allen                                                     #35
 He                                 The McGuire Sisters                                             #12
-Burn That Candle                   Bill Haley & His Comets                                         #38
+Burn That Candle                   Bill Haley & His Comets                                         #20
 The Yellow Rose of Texas           Stan Freberg                                                    #47
 I Want You to Be My Baby           Georgia Gibbs                                                   #48
-My Boy Flat Top                    Dorothy Collins                                                 #46
+My Boy Flat Top                    Dorothy Collins                                                 #22
 Daddy-O                            Bonnie Lou                                                      #28
 Bonnie Blue Gal                    Mitch Miller                                                    #51
-No Arms Can Ever Hold You          Pat Boone                                                       #37
+No Arms Can Ever Hold You          Pat Boone                                                       #26
 I Want You to Be My Baby           Lillian Briggs                                                  #53
 Autumn Leaves                      Victor Young                                                    #52
-Love and Marriage                  Dinah Shore                                                     #53
+Love and Marriage                  Dinah Shore                                                     #47
 Rock Around the Clock              Bill Haley & His Comets                                         #56
 Rememb'ring                        Peter Lind Hayes and Mary Healy                                 #57
-Cry Me a River                     Julie London                                                    #42
+Cry Me a River                     Julie London                                                    #13
 Suddenly There's a Valley          The Mills Brothers                                              #45
 Love is a Many-Splendored Thing    David Rose and His Orchestra                                    #54
 Learnin' to Love                   Peggy King                                                      #61
@@ -66,20 +66,20 @@ Autumn Leaves                      Mitch Miller                                 
 Same Old Saturday Night            Frank Sinatra                                                   #65
 Magic Fingers                      Eddie Fisher                                                    #52
 Autumn Leaves                      Jackie Gleason                                                  #50
-If You Don't Want My Love          Jaye P. Morgan                                                  #48
+If You Don't Want My Love          Jaye P. Morgan                                                  #51
 Suddenly There's a Valley          Patty Andrews                                                   #69
-All at Once You Love Her           Perry Como                                                      #34
-Times Two I Love You               The Three Chuckles                                              #71
+All at Once You Love Her           Perry Como                                                      #24
+Times Two I Love You               The Three Chuckles                                              #67
 Paper Roses                        Lola Dee                                                        #72
 Hawk-Eye                           Frankie Laine                                                   #73
 The Bible Tells Me So              Nick Noble                                                      #61
 I Wanna Go Where You Go            Eddie Fisher                                                    #75
-Day by Day                         The Four Freshmen                                               #76
+Day by Day                         The Four Freshmen                                               #89
 Autumn Leaves                      Ray Charles Singers                                             #55
 Pet Me, Poppa                      Rosemary Clooney                                                #77
 Love is a Many-Splendored Thing    Woody Herman and His Orchestra                                  #79
-Daddy-O                            The Fontane Sisters                                             #25
-The Rose Tattoo                    Perry Como                                                      #81
+Daddy-O                            The Fontane Sisters                                             #11
+The Rose Tattoo                    Perry Como                                                      #79
 Why Don't You Write Me?            The Jacks                                                       #82
 Gum Drop                           The Crew Cuts                                                   #80
 Hard to Get                        Gisele MacKenzie                                                #84
@@ -95,39 +95,98 @@ I'll Never Stop Loving You         Doris Day                                    
 It's Obdacious                     Buddy Johnson                                                   #94
 Give Me Your Love                  The McGuire Sisters                                             #95
 Magic Melody                       Les Paul & Mary Ford                                            #96
-It's Almost Tomorrow               Snooky Lanson                                                   #43
-When You Dance                     The Turbans                                                     #63
-Searching                          The Hilltoppers                                                 #99
+It's Almost Tomorrow               Snooky Lanson                                                   #20
+When You Dance                     The Turbans                                                     #42
+Searching                          The Hilltoppers                                                 #81
 Johnnie's Comin' Home              Johnnie Ray                                                     #100
 
 November 19, 1955 debuts:
 Pepper-Hot Baby                    Gisele MacKenzie                                                #60
-C'est la Vie                       Sarah Vaughan                                                   #51
-Woman in Love                      The Four Aces                                                   #42
+C'est la Vie                       Sarah Vaughan                                                   #22
+Woman in Love                      The Four Aces                                                   #19
 The Cattle Call                    Eddy Arnold and Hugo Winterhalter and His Orchestra and Chorus  #69
-Sixteen Tons                       Johnny Desmond                                                  #71
+Sixteen Tons                       Johnny Desmond                                                  #50
 Por Favor                          Vic Damone                                                      #73
 Adorable                           The Fontane Sisters                                             #71
-Band of Gold                       Kit Carson                                                      #74
-There Should Be Rules              Betty Madigan                                                   #75
+Band of Gold                       Kit Carson                                                      #39
+There Should Be Rules              Betty Madigan                                                   #54
 Burn That Candle                   The Cues                                                        #86
 Shoot it Again                     Teresa Brewer                                                   #66
 You Win Again                      The Paulette Sisters                                            #92
-Someone on Your Mind               Champ Butler                                                    #90
+Someone on Your Mind               Champ Butler                                                    #77
 
 November 26, 1955 debuts:
-Memories of You                    The Four Coins                                                  #51
-It's Almost Tomorrow               David Carroll                                                   #65
-Woman in Love                      Frankie Laine                                                   #68
-It's Almost Tomorrow               Jo Stafford                                                     #69
+Memories of You                    The Four Coins                                                  #28
+It's Almost Tomorrow               David Carroll                                                   #34
+Woman in Love                      Frankie Laine                                                   #31
+It's Almost Tomorrow               Jo Stafford                                                     #20
 Oo Bang                            Doris Day                                                       #83
-C'est la Vie                       Sunny Gale                                                      #88
+C'est la Vie                       Sunny Gale                                                      #85
 I'll Know                          Sammy Davis Jr.                                                 #90
-Without a Song                     Roy Hamilton                                                    #93
+Without a Song                     Roy Hamilton                                                    #77
 C'est la Vie                       The DeJohn Sisters                                              #97
 Seventeen                          Rusty Draper                                                    #99
 
 December 3, 1955 debuts:
+Memories Are Made of This          Dean Martin                                                     #2
+Band of Gold                       Don Cherry                                                      #18
+Japanese Farewell Song             Kay Cee Jones                                                   #64
+Of This I'm Sure                   The Four Aces                                                   #56
+Goodbye to Rome                    Georgia Gibbs                                                   #51
+Love is a Many-Splendored Thing    Don, Dick & Jimmy                                               #96
+
+December 10, 1955 debuts:
+Angels in the Sky                  The Crew Cuts                                                   #21
+Oh Susanna                         The Singing Dogs                                                #37
+Lisbon Antigua                     Nelson Riddle                                                   #34
+The Tender Trap                    Frank Sinatra                                                   #40
+Twenty-Four Hours a Day            Georgia Gibbs                                                   #74
+Speedoo                            The Cadillacs                                                   #75
+You Tickle Me Baby                 The Royal Jokers                                                #77
+Smokey Joe's Cafe                  The Robins                                                      #79
+Wanting You                        Roger Williams                                                  #48
+Teen Age Prayer                    Gloria Mann                                                     #19
+Young Abe Lincoln                  Hugo & Luigi                                                    #90
+Charmaine                          The Four Freshmen                                               #82
+Heartless                          Tommy Leonetti                                                  #99
+My Believing Heart                 Joni James                                                      #57
+The Richest Man                    Eddy Arnold                                                     #99
+
+December 17, 1955 debuts:
+The Great Pretender                The Platters                                                    #12
+Nuttin' for Christmas              Barry Gordon and Art Mooney and His Orchestra                   #9
+Dungaree Doll                      Eddie Fisher                                                    #16
+Gee Whittakers                     Pat Boone                                                       #33
+Nuttin' for Christmas              Joe Ward                                                        #22
+Too Late Now                       The DeCastro Sisters                                            #74
+Lullaby of Birdland                The Blue Stars                                                  #66
+Memories Are Made of This          Mindy Carson                                                    #72
+Nuttin' for Christmas              The Fontane Sisters                                             #36
+Nuttin' for Christmas              Ricky Zahnd                                                     #45
+Everybody's Got a Home but Me      Eddie Fisher                                                    #68
+Are You Satisfied?                 Rusty Draper                                                    #25
+Teenagers Waltz                    Eddy Howard                                                     #90
+What is a Wife                     Steve Allen                                                     #78
+Are You Satisfied?                 Sheb Wooley                                                     #95
+
+December 24, 1955 debuts:
+White Christmas                    Bing Crosby                                                     #24
+Mostly Martha                      The Crew Cuts                                                   #49
+Memories Are Made of This          Gale Storm                                                      #26
+Nuttin' for Christmas              Stan Freberg                                                    #59
+Not One Goodbye                    Jaye P. Morgan                                                  #72
+Zambesi                            Lou Busch                                                       #85
+Everybody's Got a Home but Me      Roy Hamilton                                                    #68
+
+December 31, 1955 debuts:
+Rock and Roll Waltz                Kay Starr                                                       #47
+Toyland                            Nat "King" Cole                                                 #77
+White Christmas                    The Drifters                                                    #80
+Teen Age Prayer                    Kitty White                                                     #82
+Snowbound for Christmas            The DeCastro Sisters                                            #84
+My Treasure                        The Hilltoppers                                                 #99
+
+January 7, 1956 debuts:
 
 https://books.google.ca/books?id=yCEEAAAAMBAJ&source=gbs_all_issues_r&cad=1
-https://books.google.ca/books?id=ZUUEAAAAMBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q=top%20100&f=false
+https://books.google.ca/books?id=3B4EAAAAMBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
