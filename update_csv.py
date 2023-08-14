@@ -2,6 +2,12 @@ import os
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
+print(os.environ.get("SHEET_ID")[:5])
+print(os.environ.get("CLIENT_ID")[:5])
+print(os.environ.get("CLIENT_EMAIL")[:5])
+print(os.environ.get("PRIVATE_KEY_ID")[:5])
+print(os.environ.get("PRIVATE_KEY")[:5])
+
 sheet_id = os.environ.get("SHEET_ID")
 client_id = os.environ.get("CLIENT_ID")
 client_email = os.environ.get("CLIENT_EMAIL")
