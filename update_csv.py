@@ -17,6 +17,6 @@ client = gspread.authorize(creds)
 sheet = client.open_by_key(sheet_id).sheet1
 data = sheet.get_all_values()
 
-with open("static.csv", "w") as csv_file:
+with open("WorldSongs.csv", "w") as csv_file:
     for row in data:
         csv_file.write(",".join(row) + "\n")
