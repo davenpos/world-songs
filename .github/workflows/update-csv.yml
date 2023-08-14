@@ -33,9 +33,9 @@ jobs:
         python update_csv.py
         
     - name: Commit and Push Changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add WorldSongs.csv
-        git commit -m "Update CSV from Google Sheet"
-        git push
+      uses: devops-infra/action-commit-push@v0.9.2
+      with:
+          github_token : ${{secrets.GITHUB_TOKEN}}
+          commit_message: "Update CSV from Google Sheet"
+          target_branch: "main"
+          force: false
