@@ -38,4 +38,4 @@ jobs:
           github_token : ${{secrets.GITHUB_TOKEN}}
           commit_message: "Update CSV from Google Sheet"
           target_branch: "main"
-          force: false
+          force: true
