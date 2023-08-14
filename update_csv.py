@@ -2,19 +2,13 @@ import os
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-print(os.environ.get("SHEET_ID")[:5])
-print(os.environ.get("CLIENT_ID")[:5])
-print(os.environ.get("CLIENT_EMAIL")[:5])
-print(os.environ.get("PRIVATE_KEY_ID")[:5])
-print(os.environ.get("PRIVATE_KEY")[:5])
-
 sheet_id = os.environ.get("SHEET_ID")
 client_id = os.environ.get("CLIENT_ID")
 client_email = os.environ.get("CLIENT_EMAIL")
 private_key_id = os.environ.get("PRIVATE_KEY_ID")
 private_key = os.environ.get("PRIVATE_KEY")
 
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+scope = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 creds = ServiceAccountCredentials.from_json_keyfile_dict({
     "type": "service_account",
     "client_id": client_id,
