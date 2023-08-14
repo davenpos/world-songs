@@ -27,3 +27,11 @@ jobs:
         CLIENT_SECRET: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
       run: |
         python update_csv.py
+        
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add static.csv
+        git commit -m "Update CSV from Google Sheet"
+        git push
