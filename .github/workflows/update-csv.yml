@@ -1,0 +1,29 @@
+name: Update CSV from Google Sheet
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update_csv:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install gspread oauth2client
+        
+    - name: Update CSV
+      env:
+        SHEET_ID: ${{ secrets.SHEET_ID }}
+        CLIENT_SECRET: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+      run: |
+        python update_csv.py
