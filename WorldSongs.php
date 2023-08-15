@@ -53,7 +53,10 @@
 			require __DIR__ . '/Non-displaying PHP files/GetRowStyling.php';
 			
 			foreach ($data as $rowIndex => $row):
-				$cssClasses = getRowStyling($rowIndex); ?>
+				if ($rowIndex === 0):
+					continue;
+				endif;
+				$cssClasses = getRowStyling($rowIndex - 1); ?>
 				<tr>
 					<?php foreach ($row as $cellIndex => $cell):
 						echo (($cellIndex < 2) ? '<td class="' . $cssClasses . '">' : '<td>') . htmlspecialchars($cell) . '</td>';
